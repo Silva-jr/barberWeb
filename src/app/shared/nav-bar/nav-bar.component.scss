@@ -1,0 +1,48 @@
+header{
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background: var(--Black-Medium, #28262E);
+    display: flex;
+    align-items: center;
+    padding: 14px 16rem;
+
+    justify-content: space-between;
+    .header-items{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 8rem;
+        &-img{
+            img{
+                width: 13.7rem;
+            }
+        }
+        &-profile{
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            img{
+                width: 5.6rem;
+                border-radius: 50%;
+            }
+            &-text{
+                color: #999591;
+                font-size: 1.6rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.6rem;
+                p:last-child{
+                    color: #FF9000;
+                    font-weight: 500;
+                    line-height: 2.6rem;
+                }
+            }
+        }
+    }
+    .logout{
+        img{
+            width: 2rem;
+        }
+    }
+}

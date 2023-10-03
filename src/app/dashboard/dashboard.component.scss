@@ -1,0 +1,125 @@
+.main {
+  width: 100%;
+  display: flex;
+  gap: 12rem;
+  &-left {
+    .title {
+      color: var(--White, #f4ede8);
+      font-size: 3.6rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      p:last-child {
+        font-size: 1.6rem;
+        color: var(--Orange, #ff9000);
+        line-height: normal;
+      }
+    }
+
+    &-schedule {
+      width: 100%;
+      padding: 6.4rem 0;
+      &-title {
+        color: var(--Gray, #999591);
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 2rem 0;
+      }
+      &-card {
+        width: 64rem;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        background: var(--Shape, #3e3b47);
+        padding: 1.6rem 0;
+        .border {
+          width: 2px;
+          height: 80px;
+          flex-shrink: 0;
+          border-radius: 10px 0px 0px 10px;
+          background: var(--Orange, #ff9000);
+          align-items: left;
+        }
+        .items {
+          justify-content: space-between;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 0 1.6rem;
+          .profile {
+            display: flex;
+            align-items: center;
+            gap: 2.4rem;
+            img {
+              width: 8rem;
+              border-radius: 50%;
+            }
+            p {
+              color: var(--White, #f4ede8);
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+          }
+          .time {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: var(--Gray, #999591);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+      &-morning {
+        width: 100%;
+        border-top: 1px solid #3e3b47;
+        &-card {
+          width: 100%;
+          display: flex;
+          padding: 1.6rem 0;
+          gap: 3rem;
+          .time {
+            display: flex;
+            align-items: center;
+            color: var(--White, #f4ede8);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            gap: 1rem;
+          }
+          .profile-card {
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            border-radius: 10px;
+            background: var(--Shape, #3e3b47);
+            width: 100%;
+            padding: 1.6rem;
+            img {
+              width: 5.6rem;
+              border-radius: 50%;
+            }
+            p {
+              color: var(--White, #f4ede8);
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-calendar {
+    width: 100%;
+    
+  }
+}
