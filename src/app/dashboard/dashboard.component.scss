@@ -120,6 +120,11 @@
   }
   &-calendar {
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
+    .div{
+      width: 25%;
+      position: absolute;
+    }
   }
 }

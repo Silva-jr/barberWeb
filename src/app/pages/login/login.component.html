@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="container-form">
+    <div class="header">
+      <div class="logo-content">
+        <img src="../../../assets/icons/Logo.png" alt="" />
+      </div>
+    </div>
+
+    <div class="form">
+      <h2>Faça o Login</h2>
+      <form>
+        <div class="forms-control">
+          <span><img src="../../../assets/icon/email.png" alt="" /></span>
+          <input type="email" placeholder="E-mail" formControlName="email" />
+        </div>
+        <div class="forms-control">
+          <span><img src="../../../assets/icon/senha.png" alt="" /></span>
+          <input
+            type="password"
+            placeholder="Senha"
+            formControlName="password"
+          />
+        </div>
+        <div class="forms-control buttons">
+          <button type="submit">
+            <i class="fas fa-sign-in" aria-hidden="true"></i> Entrar
+          </button>
+          <p class="forget">Esqueci a senha</p>
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="sign-up">
+        <img src="../../../assets/icons/Criar.png" alt="" />
+        <span [routerLink]="['../cadastrar']"> Criar conta</span>
+      </div>
+    </footer>
+  </div>
+  <div class="container-img">
+   <img src="../../../assets/img/login.png" alt="" /> 
+  </div>
+</div>
